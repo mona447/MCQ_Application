@@ -1,0 +1,64 @@
+/* Quiz.css */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 131, 233);
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  .quiz-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px; /* Increase border-radius for a smoother appearance */
+    background-color: aquamarine;
+    animation: pulsate 2s infinite; /* Apply pulsating animation */
+    width: 550px; /* Set a fixed width for the box */
+  }
+  
+  @keyframes pulsate {
+    0% {
+      border-color: #ccc;
+    }
+    50% {
+      border-color: #080808;
+    }
+    100% {
+      border-color: #ccc;
+    }
+  }
+  
+  .quiz-container:hover {
+    transform: scale(1.05); /* Add a scale effect on hover */
+  }
+  
+  .quiz-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .quiz-button {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Add transition effect to button background color */
+  }
+  
+  .quiz-button:hover {
+    background-color: #032e30; /* Darker green on hover */
+  }
+  
