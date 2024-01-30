@@ -1,4 +1,9 @@
-<h2>Question 1:</h2>
+import React from 'react'
+
+const DataType = () => {
+  return (
+    <div>
+      <h2>Question 1:</h2>
         What will be the output of the below program?
           <pre>
             {`
@@ -28,3 +33,8 @@
  
         
         <button type="submit">Submit</button>
+    </div>
+  )
+}
+
+export default DataType
