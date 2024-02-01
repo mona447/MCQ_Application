@@ -9,6 +9,7 @@ import CSS from './Component/Chapter/CSS/CSS.jsx';
 import SQL from './Component/Chapter/SQL/SQL.jsx'
 import Reactjs from './Component/Chapter/Reactjs/Reactjs.jsx';
 import DataType from './Component/QuestionBank/Java/DataType.jsx';
+import Statements from './Component/QuestionBank/Sql/Statements.jsx';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/html" element={<HTML/>} />
           <Route path="/css" element={<CSS/>} />
           <Route path="/datatype" element={<DataType/>} />
+          <Route path="/statements" element={<Statements/>} />
         </Routes>
       </BrowserRouter>
     </>

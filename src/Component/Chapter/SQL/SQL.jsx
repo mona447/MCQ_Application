@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SQL = () => {
   return (
@@ -7,7 +8,8 @@ const SQL = () => {
        <h2>SQL Chapters</h2>
         <form className="quiz-form">
           <div className="button-container">
-            <button type="button" className="quiz-button">Statements</button>
+          <Link to="/statements">
+            <button type="button" className="quiz-button">Statements</button></Link>
             <button type="button" className="quiz-button">OPerator</button>
             <button type="button" className="quiz-button">Function</button>
             <button type="button" className="quiz-button">Query</button>
